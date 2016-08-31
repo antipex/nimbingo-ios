@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		276132381D76724E00786266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276132371D76724E00786266 /* AppDelegate.swift */; };
-		2761323A1D76724E00786266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276132391D76724E00786266 /* ViewController.swift */; };
+		2761323A1D76724E00786266 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276132391D76724E00786266 /* BoardViewController.swift */; };
 		2761323D1D76724E00786266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2761323B1D76724E00786266 /* Main.storyboard */; };
 		276132401D76724E00786266 /* Nimbingo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2761323E1D76724E00786266 /* Nimbingo.xcdatamodeld */; };
 		276132421D76724F00786266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276132411D76724F00786266 /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		276132341D76724E00786266 /* Nimbingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nimbingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		276132371D76724E00786266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		276132391D76724E00786266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		276132391D76724E00786266 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
 		2761323C1D76724E00786266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2761323F1D76724E00786266 /* Nimbingo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nimbingo.xcdatamodel; sourceTree = "<group>"; };
 		276132411D76724F00786266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				276132371D76724E00786266 /* AppDelegate.swift */,
-				276132391D76724E00786266 /* ViewController.swift */,
+				276132391D76724E00786266 /* BoardViewController.swift */,
 				2761323B1D76724E00786266 /* Main.storyboard */,
 				276132411D76724F00786266 /* Assets.xcassets */,
 				276132431D76724F00786266 /* LaunchScreen.storyboard */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				276132401D76724E00786266 /* Nimbingo.xcdatamodeld in Sources */,
-				2761323A1D76724E00786266 /* ViewController.swift in Sources */,
+				2761323A1D76724E00786266 /* BoardViewController.swift in Sources */,
 				276132381D76724E00786266 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

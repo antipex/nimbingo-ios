@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BoardViewController.swift
 //  Nimbingo
 //
 //  Created by Kyle Rohr on 30/08/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BoardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
