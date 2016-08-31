@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276132381D76724E00786266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276132371D76724E00786266 /* AppDelegate.swift */; };
+		2761323A1D76724E00786266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276132391D76724E00786266 /* ViewController.swift */; };
+		2761323D1D76724E00786266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2761323B1D76724E00786266 /* Main.storyboard */; };
+		276132401D76724E00786266 /* Nimbingo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2761323E1D76724E00786266 /* Nimbingo.xcdatamodeld */; };
+		276132421D76724F00786266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276132411D76724F00786266 /* Assets.xcassets */; };
+		276132451D76724F00786266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276132431D76724F00786266 /* LaunchScreen.storyboard */; };
+		276132501D76724F00786266 /* NimbingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761324F1D76724F00786266 /* NimbingoTests.swift */; };
+		2761325B1D76724F00786266 /* NimbingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761325A1D76724F00786266 /* NimbingoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2761324C1D76724F00786266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2761322C1D76724E00786266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276132331D76724E00786266;
+			remoteInfo = Nimbingo;
+		};
+		276132571D76724F00786266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2761322C1D76724E00786266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276132331D76724E00786266;
+			remoteInfo = Nimbingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		276132341D76724E00786266 /* Nimbingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nimbingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276132371D76724E00786266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		276132391D76724E00786266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2761323C1D76724E00786266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2761323F1D76724E00786266 /* Nimbingo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nimbingo.xcdatamodel; sourceTree = "<group>"; };
+		276132411D76724F00786266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		276132441D76724F00786266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		276132461D76724F00786266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2761324B1D76724F00786266 /* NimbingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2761324F1D76724F00786266 /* NimbingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbingoTests.swift; sourceTree = "<group>"; };
+		276132511D76724F00786266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276132561D76724F00786266 /* NimbingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2761325A1D76724F00786266 /* NimbingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbingoUITests.swift; sourceTree = "<group>"; };
+		2761325C1D76724F00786266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276132311D76724E00786266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276132481D76724F00786266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276132531D76724F00786266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2761322B1D76724E00786266 = {
+			isa = PBXGroup;
+			children = (
+				276132361D76724E00786266 /* Nimbingo */,
+				2761324E1D76724F00786266 /* NimbingoTests */,
+				276132591D76724F00786266 /* NimbingoUITests */,
+				276132351D76724E00786266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		276132351D76724E00786266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276132341D76724E00786266 /* Nimbingo.app */,
+				2761324B1D76724F00786266 /* NimbingoTests.xctest */,
+				276132561D76724F00786266 /* NimbingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276132361D76724E00786266 /* Nimbingo */ = {
+			isa = PBXGroup;
+			children = (
+				276132371D76724E00786266 /* AppDelegate.swift */,
+				276132391D76724E00786266 /* ViewController.swift */,
+				2761323B1D76724E00786266 /* Main.storyboard */,
+				276132411D76724F00786266 /* Assets.xcassets */,
+				276132431D76724F00786266 /* LaunchScreen.storyboard */,
+				276132461D76724F00786266 /* Info.plist */,
+				2761323E1D76724E00786266 /* Nimbingo.xcdatamodeld */,
+			);
+			path = Nimbingo;
+			sourceTree = "<group>";
+		};
+		2761324E1D76724F00786266 /* NimbingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2761324F1D76724F00786266 /* NimbingoTests.swift */,
+				276132511D76724F00786266 /* Info.plist */,
+			);
+			path = NimbingoTests;
+			sourceTree = "<group>";
+		};
+		276132591D76724F00786266 /* NimbingoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2761325A1D76724F00786266 /* NimbingoUITests.swift */,
+				2761325C1D76724F00786266 /* Info.plist */,
+			);
+			path = NimbingoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276132331D76724E00786266 /* Nimbingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2761325F1D76724F00786266 /* Build configuration list for PBXNativeTarget "Nimbingo" */;
+			buildPhases = (
+				276132301D76724E00786266 /* Sources */,
+				276132311D76724E00786266 /* Frameworks */,
+				276132321D76724E00786266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nimbingo;
+			productName = Nimbingo;
+			productReference = 276132341D76724E00786266 /* Nimbingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2761324A1D76724F00786266 /* NimbingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276132621D76724F00786266 /* Build configuration list for PBXNativeTarget "NimbingoTests" */;
+			buildPhases = (
+				276132471D76724F00786266 /* Sources */,
+				276132481D76724F00786266 /* Frameworks */,
+				276132491D76724F00786266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2761324D1D76724F00786266 /* PBXTargetDependency */,
+			);
+			name = NimbingoTests;
+			productName = NimbingoTests;
+			productReference = 2761324B1D76724F00786266 /* NimbingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		276132551D76724F00786266 /* NimbingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276132651D76724F00786266 /* Build configuration list for PBXNativeTarget "NimbingoUITests" */;
+			buildPhases = (
+				276132521D76724F00786266 /* Sources */,
+				276132531D76724F00786266 /* Frameworks */,
+				276132541D76724F00786266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276132581D76724F00786266 /* PBXTargetDependency */,
+			);
+			name = NimbingoUITests;
+			productName = NimbingoUITests;
+			productReference = 276132561D76724F00786266 /* NimbingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2761322C1D76724E00786266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kyle Rohr";
+				TargetAttributes = {
+					276132331D76724E00786266 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2761324A1D76724F00786266 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 276132331D76724E00786266;
+					};
+					276132551D76724F00786266 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 276132331D76724E00786266;
+					};
+				};
+			};
+			buildConfigurationList = 2761322F1D76724E00786266 /* Build configuration list for PBXProject "Nimbingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2761322B1D76724E00786266;
+			productRefGroup = 276132351D76724E00786266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276132331D76724E00786266 /* Nimbingo */,
+				2761324A1D76724F00786266 /* NimbingoTests */,
+				276132551D76724F00786266 /* NimbingoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276132321D76724E00786266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276132451D76724F00786266 /* LaunchScreen.storyboard in Resources */,
+				276132421D76724F00786266 /* Assets.xcassets in Resources */,
+				2761323D1D76724E00786266 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276132491D76724F00786266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276132541D76724F00786266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276132301D76724E00786266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276132401D76724E00786266 /* Nimbingo.xcdatamodeld in Sources */,
+				2761323A1D76724E00786266 /* ViewController.swift in Sources */,
+				276132381D76724E00786266 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276132471D76724F00786266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276132501D76724F00786266 /* NimbingoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276132521D76724F00786266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2761325B1D76724F00786266 /* NimbingoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2761324D1D76724F00786266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276132331D76724E00786266 /* Nimbingo */;
+			targetProxy = 2761324C1D76724F00786266 /* PBXContainerItemProxy */;
+		};
+		276132581D76724F00786266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276132331D76724E00786266 /* Nimbingo */;
+			targetProxy = 276132571D76724F00786266 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2761323B1D76724E00786266 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2761323C1D76724E00786266 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		276132431D76724F00786266 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276132441D76724F00786266 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2761325D1D76724F00786266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2761325E1D76724F00786266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		276132601D76724F00786266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nimbingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.Nimbingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		276132611D76724F00786266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nimbingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.Nimbingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		276132631D76724F00786266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NimbingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.NimbingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimbingo.app/Nimbingo";
+			};
+			name = Debug;
+		};
+		276132641D76724F00786266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NimbingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.NimbingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimbingo.app/Nimbingo";
+			};
+			name = Release;
+		};
+		276132661D76724F00786266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NimbingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.NimbingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nimbingo;
+			};
+			name = Debug;
+		};
+		276132671D76724F00786266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NimbingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.NimbingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nimbingo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2761322F1D76724E00786266 /* Build configuration list for PBXProject "Nimbingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2761325D1D76724F00786266 /* Debug */,
+				2761325E1D76724F00786266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2761325F1D76724F00786266 /* Build configuration list for PBXNativeTarget "Nimbingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276132601D76724F00786266 /* Debug */,
+				276132611D76724F00786266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		276132621D76724F00786266 /* Build configuration list for PBXNativeTarget "NimbingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276132631D76724F00786266 /* Debug */,
+				276132641D76724F00786266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		276132651D76724F00786266 /* Build configuration list for PBXNativeTarget "NimbingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276132661D76724F00786266 /* Debug */,
+				276132671D76724F00786266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2761323E1D76724E00786266 /* Nimbingo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2761323F1D76724E00786266 /* Nimbingo.xcdatamodel */,
+			);
+			currentVersion = 2761323F1D76724E00786266 /* Nimbingo.xcdatamodel */;
+			path = Nimbingo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2761322C1D76724E00786266 /* Project object */;
+}
