@@ -10,9 +10,27 @@ import UIKit
 
 class BoardViewController: UIViewController {
 
+    @IBOutlet var boardView: BoardView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        var rows: [Array<BoardViewCell>] = []
+
+        for rowNum in 0..<5 {
+            var row = [BoardViewCell]()
+
+            for colNum in 0..<5 {
+                let cell = BoardViewCell()
+                cell.title = "Bobby G"
+
+                row.append(cell)
+            }
+
+            rows.append(row)
+        }
+
+        boardView.rows = rows
     }
 
     override func didReceiveMemoryWarning() {

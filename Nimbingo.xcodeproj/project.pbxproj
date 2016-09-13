@@ -15,6 +15,8 @@
 		276132451D76724F00786266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276132431D76724F00786266 /* LaunchScreen.storyboard */; };
 		276132501D76724F00786266 /* NimbingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761324F1D76724F00786266 /* NimbingoTests.swift */; };
 		2761325B1D76724F00786266 /* NimbingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761325A1D76724F00786266 /* NimbingoUITests.swift */; };
+		2761326A1D77B7C700786266 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276132691D77B7C700786266 /* BoardView.swift */; };
+		2761326C1D77C4E100786266 /* BoardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761326B1D77C4E100786266 /* BoardViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		276132561D76724F00786266 /* NimbingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2761325A1D76724F00786266 /* NimbingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbingoUITests.swift; sourceTree = "<group>"; };
 		2761325C1D76724F00786266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276132691D77B7C700786266 /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		2761326B1D77C4E100786266 /* BoardViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		276132361D76724E00786266 /* Nimbingo */ = {
 			isa = PBXGroup;
 			children = (
+				276132681D77B79A00786266 /* Views */,
 				276132371D76724E00786266 /* AppDelegate.swift */,
 				276132391D76724E00786266 /* BoardViewController.swift */,
 				2761323B1D76724E00786266 /* Main.storyboard */,
@@ -126,6 +131,15 @@
 				2761325C1D76724F00786266 /* Info.plist */,
 			);
 			path = NimbingoUITests;
+			sourceTree = "<group>";
+		};
+		276132681D77B79A00786266 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				276132691D77B7C700786266 /* BoardView.swift */,
+				2761326B1D77C4E100786266 /* BoardViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,13 +210,16 @@
 				TargetAttributes = {
 					276132331D76724E00786266 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					2761324A1D76724F00786266 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 276132331D76724E00786266;
 					};
 					276132551D76724F00786266 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 276132331D76724E00786266;
 					};
 				};
@@ -260,7 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				276132401D76724E00786266 /* Nimbingo.xcdatamodeld in Sources */,
+				2761326A1D77B7C700786266 /* BoardView.swift in Sources */,
 				2761323A1D76724E00786266 /* BoardViewController.swift in Sources */,
+				2761326C1D77C4E100786266 /* BoardViewCell.swift in Sources */,
 				276132381D76724E00786266 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.Nimbingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -420,6 +440,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.Nimbingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -431,6 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.NimbingoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimbingo.app/Nimbingo";
 			};
 			name = Debug;
@@ -443,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.NimbingoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimbingo.app/Nimbingo";
 			};
 			name = Release;
@@ -454,6 +477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.NimbingoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Nimbingo;
 			};
 			name = Debug;
@@ -465,6 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.NimbingoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Nimbingo;
 			};
 			name = Release;
@@ -488,6 +513,7 @@
 				276132611D76724F00786266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		276132621D76724F00786266 /* Build configuration list for PBXNativeTarget "NimbingoTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +522,7 @@
 				276132641D76724F00786266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		276132651D76724F00786266 /* Build configuration list for PBXNativeTarget "NimbingoUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +531,7 @@
 				276132671D76724F00786266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

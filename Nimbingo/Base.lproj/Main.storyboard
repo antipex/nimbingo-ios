@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Board View Controller-->
@@ -16,11 +17,27 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3YC-8s-Sdj" customClass="BoardView" customModule="Nimbingo" customModuleProvider="target">
+                                <rect key="frame" x="20" y="28" width="560" height="552"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="3YC-8s-Sdj" secondAttribute="trailing" id="24q-pm-9PI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3YC-8s-Sdj" secondAttribute="bottom" constant="20" id="Sby-gS-lqi"/>
+                            <constraint firstItem="3YC-8s-Sdj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ZRa-In-8Mj"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="3YC-8s-Sdj" secondAttribute="leading" id="Zte-Kg-XDb"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="boardView" destination="3YC-8s-Sdj" id="63W-YN-zzV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="356" y="414"/>
         </scene>
     </scenes>
 </document>
